@@ -6,15 +6,18 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/modules/**/*.{js,ts,jsx,tsx,mdx}",
+
   ],
   theme: {
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        colorVA:"#6ab39f",
+        colorVA:"#3daeeb",
+        hoveVA:"#0682c4"
       },
     },
   },
   plugins: [],
 } satisfies Config;
+        
